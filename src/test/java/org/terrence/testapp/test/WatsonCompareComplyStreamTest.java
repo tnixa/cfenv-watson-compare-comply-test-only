@@ -7,7 +7,7 @@ import java.io.InputStream;
 import org.junit.Test;
 import org.terrence.testapp.rest.TestRestController;
 
-public class WatsonVisualRecognitionStreamTest {
+public class WatsonCompareComplyStreamTest {
 
     // verify file is not null
     @Test

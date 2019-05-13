@@ -1,5 +1,5 @@
-## Test project for Watson Visual Recognition on IBM Cloud using Spring Boot Starter and CFEnv
-Project to test a Watson Visual Recognition service instance on IBM Cloud using Spring Boot Starter: https://github.com/watson-developer-cloud/spring-boot-starter. A sample jpg file will be analyzed.
+## Test project for Watson Compare and Comply on IBM Cloud using Spring Boot Starter and CFEnv
+Project to test a Watson Compare and Comply service instance on IBM Cloud using Spring Boot Starter: https://github.com/watson-developer-cloud/spring-boot-starter. A sample pdf file will be analyzed.
 
 Uses the CFEnv processor to set the properties from the service entry in VCAP_SERVICES.
 - https://github.com/pivotal-cf/java-cfenv

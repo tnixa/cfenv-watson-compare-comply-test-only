@@ -2,7 +2,7 @@
 Project to test a Watson Compare and Comply service instance on IBM Cloud using Spring Boot Starter: https://github.com/watson-developer-cloud/spring-boot-starter. A sample pdf file will be analyzed.
 
 Uses the CFEnv processor to set the properties from the service entry in VCAP_SERVICES.
-- https://github.com/pivotal-cf/java-cfenv
+- https://github.com/tnixa/cfenv-processor-watson-compare-comply
 
 ## Setup
 1. You'll need ibm cloud CLI from https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli#install_use and bx cf installed and configured to talk to the appropriate cf org/space etc.

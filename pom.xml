@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.terrence</groupId>
-	<artifactId>testapp</artifactId>
+	<artifactId>cfenv-watson-compare-comply-test-only</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testapp</name>
-	<description>Demo project for Spring Boot</description>
+	<name>cfenv-watson-compare-comply-test-only</name>
+	<description>A test app using the CfEnvProcessor Implementation for Watson Compare and Comply</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -37,6 +37,11 @@
 			<groupId>io.pivotal.cfenv</groupId>
 			<artifactId>java-cfenv-boot</artifactId>
 			<version>1.0.0.RELEASE</version>
+		</dependency>
+		<dependency>
+				<groupId>com.github.tnixa</groupId>
+				<artifactId>cfenv-processor-watson-compare-comply</artifactId>
+				<version>-SNAPSHOT</version>
 		</dependency>	
 	</dependencies>
 
@@ -44,6 +49,10 @@
 		<repository>
 			<id>ibm-cloud</id>
 			<url>https://dl.bintray.com/ibm-cloud-sdks/ibm-cloud-sdk-repo</url>
+		</repository>
+		<repository>
+				<id>jitpack.io</id>
+				<url>https://jitpack.io</url>
 		</repository>
     </repositories>
 
